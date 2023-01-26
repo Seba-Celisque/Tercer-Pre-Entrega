@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Allura&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Frijole&family=Great+Vibes&family=Indie+Flower&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Passions+Conflict&family=Permanent+Marker&family=Roboto:wght@100&family=Rubik+80s+Fade&family=Rubik+Dirt&family=Rubik+Storm&family=Sofia+Sans:wght@200;300&family=Tangerine:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 60px;
+}
+
+.navbar {
+    background-color: rgba(16, 10, 2, 0.881);
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script';
+    font-size: 35px;
+}
+
+h1 {
+    font-family: 'Dancing Script';
+    font-size: 50px;
+}
+h2, h3, h4, h5 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+
+p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+.btn {
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(250,202,117);
+    border: none;
+}
+
+li a {
+    font-family: 'Kanit', sans-serif;
+}
+
+.btn:hover {
+    background-color: rgba(16, 10, 2, 0.881);
+    color: white;
+    border: none;
+    transition: .5s;
+}
+
+.titulos {
+    color: rgba(16, 10, 2, 0.881);
+}
+
+
+.patio {
+    background-image:url(../img/parrillada.jpg);
+    height: 91vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.patio__textos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    height: 100%;
+}
+
+.reserva {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgba(16, 10, 2, 0.881);
+}
+
+.reserva__contenido {
+    width: 80%;
+    height: 60%;
+    background-image: url(../img/chinchulines.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.reserva__textos {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.secondaryPatio {
+    height: 91vh;
+    background: rgb(250,202,117);
+    background: linear-gradient(180deg, rgba(250,202,117,1) 0%, rgba(250,202,117,0.6867121848739496) 61%, rgba(250,202,117,0.3617822128851541) 100%);
+}
+
+.secondaryPatio__contenedor {
+    height: 100%;
+}
+
+.secondaryPatio__text {
+    color:  rgba(16, 10, 2, 0.881);
+}
+
+
+
+.nosotros {
+    background-color: rgba(16, 10, 2, 0.881);
+}
+
+
+footer {
+    min-height: 100px;
+}
+
+.pie {
+    background-color:  rgba(16, 10, 2, 0.881);
+}
+
+.pie-texto {
+    font-size: 1.3rem;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.iconos-redes a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: 0.2s ease-in;
+    text-decoration: none;
+}
+
+.iconos-redes a:hover {
+    background-color: white;
+    border: 2px solid white
+    
+}
+
+.iconos-redes i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes i:hover {
+    color: black;
+}
