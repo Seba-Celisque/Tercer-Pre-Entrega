@@ -1,5 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Allura&family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Frijole&family=Great+Vibes&family=Indie+Flower&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Passions+Conflict&family=Permanent+Marker&family=Roboto:wght@100&family=Rubik+80s+Fade&family=Rubik+Dirt&family=Rubik+Storm&family=Sofia+Sans:wght@200;300&family=Tangerine:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Dancing script";
+}
+*::-moz-selection {
+  background-color: black;
+  color: rgba(16, 10, 2, 0.881);
+}
+*::selection {
+  background-color: black;
+  color: rgba(16, 10, 2, 0.881);
+}
+
+.btn {
+  font-family: "Kanit", sans-serif;
+  background-color: rgb(250, 202, 117);
+  border: none;
 }/*# sourceMappingURL=estilo.css.map */
