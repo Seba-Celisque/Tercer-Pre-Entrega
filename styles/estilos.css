@@ -165,3 +165,22 @@ footer {
 .iconos-redes i:hover {
     color: black;
 }
+@media screen and (max-width: 1200px) {
+    .secondaryPatio {
+      height: 70vh;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .secondaryPatio {
+      height: 50vh;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .secondaryPatio {
+      height: 35vh;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .filtros {
+      display: none;
+    }
